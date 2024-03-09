@@ -1,0 +1,11 @@
+Package: olympicsWeather
+Title: previsions meteo pour les sites olympiques 
+Version: 0.0.0.9000
+Author@R: person("Valentin", "GOTTARDINI", email = "valentin.gottardini@etu.univ-nantes.fr", role =c("aut", "cre")) 
+Description: Cette librairie propose une large gamme de fonctionnalités permettant d'accéder aux prévisions météorologiques en fonction des coordonnées GPS ou des adresses des sites olympiques.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: devtools,httr2,jsonlite,tibble,purrr,tidygeocoder,usethis,roxygen2,lubridate,testthat
+Config/testthat/edition: 3
